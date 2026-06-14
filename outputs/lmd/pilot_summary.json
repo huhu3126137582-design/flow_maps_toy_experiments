@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "diagonal_not_sustained_growth": true,
+    "finite": true,
+    "off_diagonal_decreased": true
+  },
+  "early_diagonal_loss": 0.00812205282272771,
+  "early_off_diagonal_loss": 0.23957155219977722,
+  "late_diagonal_loss": 0.00035291441599838436,
+  "late_off_diagonal_loss": 0.0011806348629761487,
+  "logged_records": 21,
+  "passed": true,
+  "preceding_diagonal_loss": 0.00032579959952272475
+}

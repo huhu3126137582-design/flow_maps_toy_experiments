@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+
+# Local agent configuration
+.agents/
+.codex/
+
+# Training artifacts that should not enter Git history
+outputs/**/*.pt
+outputs/**/*.jsonl
+outputs/**/*.tmp
+outputs/**/*.png
+outputs/**/checkpoint_survey*.json
+outputs/**/*fine_search_metrics.json
+outputs/lsd/best_checkpoint_nfe_1_2_4_8_metrics.json
+*.log
+
+# Matplotlib cache
+.matplotlib/

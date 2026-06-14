@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "finite": true,
+    "fm_decreased": true,
+    "gradient_clipping_not_saturated": true,
+    "lsd_decreased": true,
+    "reserved_memory_stable": true
+  },
+  "early_fm_loss": 2.0712329745292664,
+  "early_lsd_loss": 0.024267379657430865,
+  "early_peak_reserved_bytes": 392167424,
+  "late_fm_loss": 1.7025045454502106,
+  "late_gradient_clip_rate": 0.0,
+  "late_lsd_loss": 0.02122635906562209,
+  "late_peak_reserved_bytes": 392167424,
+  "logged_records": 21,
+  "passed": true
+}
